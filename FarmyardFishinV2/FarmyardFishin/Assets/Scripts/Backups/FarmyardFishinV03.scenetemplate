@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: FarmyardFishinV03
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 8185963723970810583, guid: a081112a75bfd864a942f6654111c173, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 62d8a85e2ab03b441b812669a2efb2ee, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 3084024626696190684, guid: e37ae606eb52c904580786ac45201e16, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 9100000, guid: 1215e98cc02a91340b3a9af5af091f14, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 4cbbc501de1c85143808523406bd895b, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 652e40a0bdd7f8042a17f933cdd49666, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: c81ff0882f483e64885b11ca9bcdd1c2, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 4077612351692668892, guid: c056b21245e5b4748b3202f045ab86a3, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 2fd6421f253b4ef1a19526541f9ffc0c, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 919132149155446097, guid: 16b4f3c93da49f34ca1b7ec12c187c67, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 7120212368df17b4e9cae9947a5b26de, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 62465f0c0ce6b8d41afb089a7ef04c75, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 6fe5416db03641a4d9da293ecaf04a61, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 606338260940798018, guid: cced9d45a0ad7d24ea6fc8d617c33c0b, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 81a6c471c16a72e449db911b680aa2dd, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7677146391431892031, guid: 051fb119de58a7f48995dacf9f7e5e41, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 3e89f59f6f209494882f484ccfa4ab63, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 3507746843320673371, guid: 455abb9664fce134d99b114e600a40a1, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 3a096d745469e9c44a64830c8e398881, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 4917975684460325481, guid: 00630013616b73646a484a538d931725, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: ee148e281f3c41c5b4ff5f8a5afe5a6c, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 919132149155446097, guid: 37ab5ee15ddf4eb4d85c2d2b26fc8276, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: f1ff7e7b433e9ef4a9632839768dc69c, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 766174185b42e074c8ee60be3a2feccd, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 488c03491053eaf4a80e80ffa94eba16, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 4eb57f29cdf0989439289321998330c9, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2100000, guid: 66e976dd062281f4bade747f7cd7edc4, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
+    instantiationMode: 1
+  templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
+  addToDefaults: 0
