@@ -53,7 +53,6 @@ void SpawnFish()
     NPCMovement fishMovementRight = fishRight.GetComponent<NPCMovement>();
     if (fishMovementRight != null)
     {
-        fishMovementRight.SetDirection(false); // Move left
         fishMovementRight.speed = Random.Range(8f, 15f); // Randomize speed
     }
 }
@@ -80,7 +79,6 @@ void SpawnAnimal()
     NPCMovement animalMovementRight = animalRight.GetComponent<NPCMovement>();
     if (animalMovementRight != null)
     {
-        animalMovementRight.SetDirection(false); // Move left
         animalMovementRight.speed = Random.Range(2f, 6f); // Randomize speed
     }
 }

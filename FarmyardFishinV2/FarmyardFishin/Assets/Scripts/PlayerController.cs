@@ -24,7 +24,10 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+            if (gameController == null)
+            {
+                gameController = FindObjectOfType<GameController>();
+            }
     }
 
     // Update is called once per frame
@@ -60,6 +63,8 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, yRangeUpper, transform.position.z);
         }
+        // these 4 if statements constrain the player within the level
+
 
         // logic to detach animal from player
         if (attachedFriend != null && Input.GetKeyDown(KeyCode.Space)) // spacebar key to detach animal (might remove this later, dont know if we really need it)
@@ -88,6 +93,13 @@ public class PlayerController : MonoBehaviour
             // attach animal to player
             attachedFriend.transform.SetParent(player.transform);
             attachedFriend.GetComponent<NPCMovement>().speed = 0f; // sets animal speed to zero after being attached
+
+            Rigidbody friendRigidbody = attachedFriend.GetComponent<Rigidbody>();
+            if (friendRigidbody != null) Destroy(friendRigidbody);
+    
+            Collider friendCollider = attachedFriend.GetComponent<Collider>(); // removing the collider and rigidbody from the attached animal here to prevent movement from messing up on the player
+            if (friendCollider != null) friendCollider.enabled = false;
+
             Debug.Log("Friend attached!");
         }
     }

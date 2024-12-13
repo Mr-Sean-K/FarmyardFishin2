@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: dede43f8289918d4eb1616c8479cb13e
   - enabled: 1
     path: Assets/Scenes/FarmyardFishin.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    guid: 5b93a04b93b2fab45a46e883737677f6
   m_configObjects: {}

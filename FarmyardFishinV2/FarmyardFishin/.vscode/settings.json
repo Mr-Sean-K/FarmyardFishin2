@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "FarmyardFishinV2.sln"
+    "dotnet.defaultSolution": "FarmyardFishin.sln"
 }

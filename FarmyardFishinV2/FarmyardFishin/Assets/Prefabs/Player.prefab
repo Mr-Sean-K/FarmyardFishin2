@@ -43,7 +43,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4917975684460325481}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &7501438055713418015
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2eee2a48460e34147b2b69035840bc68, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   xRange: 26
-  yRangeUpper: 18.5
+  yRangeUpper: 24
   yRangeLower: 1
   horizontalInput: 0
   verticalInput: 0
@@ -129,7 +129,6 @@ MonoBehaviour:
   enemy: {fileID: 0}
   attachedFriend: {fileID: 0}
   gameController: {fileID: 0}
-  Lives: 3
 --- !u!54 &-3191123292028528250
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -155,5 +154,5 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 8
+  m_Constraints: 120
   m_CollisionDetection: 0

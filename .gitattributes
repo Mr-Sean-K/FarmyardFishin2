@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Specific file types (if necessary)
+*.png binary
+*.jpg binary
+
+# Ensure .meta files are treated as text
+*.meta text
+
+# Treat .scenetemplate files as text with consistent LF line endings
+*.scenetemplate text eol=lf

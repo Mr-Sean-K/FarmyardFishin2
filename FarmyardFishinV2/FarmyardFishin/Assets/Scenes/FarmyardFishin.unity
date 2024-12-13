@@ -197,7 +197,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f1ff7e7b433e9ef4a9632839768dc69c, type: 2}
+  - {fileID: 2100000, guid: 921b035a06101c243a8f76e35b0f5bac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -254,13 +254,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133684225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 9.02, z: 0}
   m_LocalScale: {x: 100, y: 30, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 277718096}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &133684227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -302,7 +302,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6fe5416db03641a4d9da293ecaf04a61, type: 2}
+  - {fileID: 2100000, guid: 48d4e7c9cedee9f4ab31e6ec7782778a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -406,11 +406,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 519178429}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dd19d9f3bcfe794db2f2775a5f62781, type: 3}
+  m_Script: {fileID: 11500000, guid: 5fbc26e5a4991344bbb85740e5d016a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fishPrefabs:
-  - {fileID: 606338260940798018, guid: cced9d45a0ad7d24ea6fc8d617c33c0b, type: 3}
+  - {fileID: 1937588542411740048, guid: a05072560c3476b4cb8dddf22f697392, type: 3}
+  - {fileID: 2206852426022253465, guid: de500f6b90f89bc4c87a6585b2dea01a, type: 3}
+  - {fileID: 7770584863604633872, guid: 67de17aaa6711224f80123d9b1ef8cb7, type: 3}
+  - {fileID: 104517609856167801, guid: 94c015d94f6e5364e9b36b960bbe1b77, type: 3}
   animalPrefabs:
   - {fileID: 8185963723970810583, guid: a081112a75bfd864a942f6654111c173, type: 3}
   - {fileID: 7677146391431892031, guid: 051fb119de58a7f48995dacf9f7e5e41, type: 3}
@@ -419,10 +422,10 @@ MonoBehaviour:
   - {fileID: 3507746843320673371, guid: 455abb9664fce134d99b114e600a40a1, type: 3}
   spawnLimitXLeft: -27
   spawnLimitXRight: 27
-  spawnLimitYDown: 7
-  spawnLimitYUp: 15
+  spawnLimitYDown: 5
+  spawnLimitYUp: 17
   startDelay: 1
-  spawnInterval: 4
+  spawnInterval: 0.8
   spawnSpeed: 2
 --- !u!1 &705507993
 GameObject:
@@ -635,7 +638,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 7.72, z: -44.02}
+  m_LocalPosition: {x: 0, y: 11, z: -50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -757,7 +760,6 @@ MonoBehaviour:
   scoreText: {fileID: 0}
   timerText: {fileID: 0}
   gameOverText: {fileID: 0}
-  gameOverPanel: {fileID: 0}
   lives: 3
 --- !u!1001 &5152626351746984967
 PrefabInstance:
@@ -767,16 +769,8 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -3191123292028528250, guid: 00630013616b73646a484a538d931725, type: 3}
-      propertyPath: m_Constraints
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 4917975684460325481, guid: 00630013616b73646a484a538d931725, type: 3}
       propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4917975684460325481, guid: 00630013616b73646a484a538d931725, type: 3}
-      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6358778084010565425, guid: 00630013616b73646a484a538d931725, type: 3}
